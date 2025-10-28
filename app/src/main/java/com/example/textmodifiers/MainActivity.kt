@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             TextModifiersTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) {
-                 Homepage()
+               Home()
                 }
             }
         }
