@@ -18,11 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            TextModifiersTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) {
-               Home()
+               Index()
                 }
-            }
         }
     }
-}
